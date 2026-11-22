@@ -1,0 +1,942 @@
+{
+ "set": "heldout",
+ "seeds": [
+  9101,
+  9102,
+  9103
+ ],
+ "config_sha": "cb3c3f3318ea",
+ "generated_at": "2026-11-22",
+ "weeks": 40,
+ "facts": {
+  "customers": 117,
+  "planted_problems": 216,
+  "found_at_kickoff": 216,
+  "false_alarms": 0,
+  "questions": 11289,
+  "planted_by_kind": {
+   "anyonePublic": {
+    "planted": 13,
+    "found_at_kickoff": 13,
+    "area": "dms"
+   },
+   "certExpiring": {
+    "planted": 12,
+    "found_at_kickoff": 12,
+    "area": "sso"
+   },
+   "noGroups": {
+    "planted": 27,
+    "found_at_kickoff": 27,
+    "area": "sso"
+   },
+   "noPkce": {
+    "planted": 11,
+    "found_at_kickoff": 11,
+    "area": "sso"
+   },
+   "regionWrong": {
+    "planted": 27,
+    "found_at_kickoff": 27,
+    "area": "residency"
+   },
+   "replyUrl": {
+    "planted": 15,
+    "found_at_kickoff": 15,
+    "area": "sso"
+   },
+   "retainingVendor": {
+    "planted": 5,
+    "found_at_kickoff": 5,
+    "area": "residency"
+   },
+   "shallowGroups": {
+    "planted": 36,
+    "found_at_kickoff": 36,
+    "area": "dms"
+   },
+   "slowSync": {
+    "planted": 27,
+    "found_at_kickoff": 27,
+    "area": "dms"
+   },
+   "usTranscription": {
+    "planted": 18,
+    "found_at_kickoff": 18,
+    "area": "residency"
+   },
+   "wallsUnmapped": {
+    "planted": 23,
+    "found_at_kickoff": 23,
+    "area": "dms"
+   },
+   "weakKey": {
+    "planted": 2,
+    "found_at_kickoff": 2,
+    "area": "sso"
+   }
+  }
+ },
+ "timeline_first_seed": {
+  "status_quo": [
+   {
+    "customer": "C9101-000",
+    "arrival": 0,
+    "committed": 7,
+    "golive": 4,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-001",
+    "arrival": 0,
+    "committed": 8,
+    "golive": 4,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-002",
+    "arrival": 0,
+    "committed": 8,
+    "golive": 11,
+    "incidents": 1
+   },
+   {
+    "customer": "C9101-003",
+    "arrival": 1,
+    "committed": 10,
+    "golive": 10,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-004",
+    "arrival": 2,
+    "committed": 9,
+    "golive": 8,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-005",
+    "arrival": 2,
+    "committed": 10,
+    "golive": 10,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-006",
+    "arrival": 3,
+    "committed": 13,
+    "golive": 10,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-007",
+    "arrival": 3,
+    "committed": 12,
+    "golive": 13,
+    "incidents": 2
+   },
+   {
+    "customer": "C9101-008",
+    "arrival": 3,
+    "committed": 12,
+    "golive": 13,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-009",
+    "arrival": 3,
+    "committed": 10,
+    "golive": 12,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-010",
+    "arrival": 4,
+    "committed": 14,
+    "golive": 12,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-011",
+    "arrival": 4,
+    "committed": 12,
+    "golive": 15,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-012",
+    "arrival": 5,
+    "committed": 13,
+    "golive": 14,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-013",
+    "arrival": 6,
+    "committed": 14,
+    "golive": 17,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-014",
+    "arrival": 6,
+    "committed": 15,
+    "golive": 13,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-015",
+    "arrival": 7,
+    "committed": 14,
+    "golive": 19,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-016",
+    "arrival": 7,
+    "committed": 14,
+    "golive": 15,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-017",
+    "arrival": 8,
+    "committed": 19,
+    "golive": 20,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-018",
+    "arrival": 8,
+    "committed": 16,
+    "golive": 19,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-019",
+    "arrival": 9,
+    "committed": 17,
+    "golive": 16,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-020",
+    "arrival": 12,
+    "committed": 22,
+    "golive": 16,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-021",
+    "arrival": 12,
+    "committed": 19,
+    "golive": 18,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-022",
+    "arrival": 12,
+    "committed": 20,
+    "golive": 20,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-023",
+    "arrival": 14,
+    "committed": 24,
+    "golive": 19,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-024",
+    "arrival": 16,
+    "committed": 24,
+    "golive": 23,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-025",
+    "arrival": 17,
+    "committed": 24,
+    "golive": 28,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-026",
+    "arrival": 18,
+    "committed": 26,
+    "golive": 25,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-027",
+    "arrival": 19,
+    "committed": 27,
+    "golive": 25,
+    "incidents": 1
+   },
+   {
+    "customer": "C9101-028",
+    "arrival": 19,
+    "committed": 27,
+    "golive": 24,
+    "incidents": 1
+   },
+   {
+    "customer": "C9101-029",
+    "arrival": 20,
+    "committed": 28,
+    "golive": 28,
+    "incidents": 1
+   },
+   {
+    "customer": "C9101-030",
+    "arrival": 21,
+    "committed": 28,
+    "golive": 25,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-031",
+    "arrival": 21,
+    "committed": 29,
+    "golive": 28,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-032",
+    "arrival": 21,
+    "committed": 28,
+    "golive": 29,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-033",
+    "arrival": 23,
+    "committed": 31,
+    "golive": 33,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-034",
+    "arrival": 23,
+    "committed": 31,
+    "golive": 33,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-035",
+    "arrival": 23,
+    "committed": 31,
+    "golive": 33,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-036",
+    "arrival": 23,
+    "committed": 31,
+    "golive": 31,
+    "incidents": 0
+   }
+  ],
+  "desk": [
+   {
+    "customer": "C9101-000",
+    "arrival": 0,
+    "committed": 7,
+    "golive": 4,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-001",
+    "arrival": 0,
+    "committed": 8,
+    "golive": 3,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-002",
+    "arrival": 0,
+    "committed": 8,
+    "golive": 5,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-003",
+    "arrival": 1,
+    "committed": 10,
+    "golive": 6,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-004",
+    "arrival": 2,
+    "committed": 9,
+    "golive": 5,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-005",
+    "arrival": 2,
+    "committed": 10,
+    "golive": 6,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-006",
+    "arrival": 3,
+    "committed": 13,
+    "golive": 9,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-007",
+    "arrival": 3,
+    "committed": 12,
+    "golive": 10,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-008",
+    "arrival": 3,
+    "committed": 12,
+    "golive": 8,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-009",
+    "arrival": 3,
+    "committed": 10,
+    "golive": 6,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-010",
+    "arrival": 4,
+    "committed": 14,
+    "golive": 10,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-011",
+    "arrival": 4,
+    "committed": 12,
+    "golive": 9,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-012",
+    "arrival": 5,
+    "committed": 13,
+    "golive": 10,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-013",
+    "arrival": 6,
+    "committed": 14,
+    "golive": 10,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-014",
+    "arrival": 6,
+    "committed": 15,
+    "golive": 10,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-015",
+    "arrival": 7,
+    "committed": 14,
+    "golive": 13,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-016",
+    "arrival": 7,
+    "committed": 14,
+    "golive": 12,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-017",
+    "arrival": 8,
+    "committed": 19,
+    "golive": 14,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-018",
+    "arrival": 8,
+    "committed": 16,
+    "golive": 14,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-019",
+    "arrival": 9,
+    "committed": 17,
+    "golive": 13,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-020",
+    "arrival": 12,
+    "committed": 22,
+    "golive": 17,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-021",
+    "arrival": 12,
+    "committed": 19,
+    "golive": 15,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-022",
+    "arrival": 12,
+    "committed": 20,
+    "golive": 15,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-023",
+    "arrival": 14,
+    "committed": 24,
+    "golive": 19,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-024",
+    "arrival": 16,
+    "committed": 24,
+    "golive": 20,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-025",
+    "arrival": 17,
+    "committed": 24,
+    "golive": 24,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-026",
+    "arrival": 18,
+    "committed": 26,
+    "golive": 22,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-027",
+    "arrival": 19,
+    "committed": 27,
+    "golive": 23,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-028",
+    "arrival": 19,
+    "committed": 27,
+    "golive": 23,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-029",
+    "arrival": 20,
+    "committed": 28,
+    "golive": 25,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-030",
+    "arrival": 21,
+    "committed": 28,
+    "golive": 24,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-031",
+    "arrival": 21,
+    "committed": 29,
+    "golive": 27,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-032",
+    "arrival": 21,
+    "committed": 28,
+    "golive": 24,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-033",
+    "arrival": 23,
+    "committed": 31,
+    "golive": 29,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-034",
+    "arrival": 23,
+    "committed": 31,
+    "golive": 28,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-035",
+    "arrival": 23,
+    "committed": 31,
+    "golive": 28,
+    "incidents": 0
+   },
+   {
+    "customer": "C9101-036",
+    "arrival": 23,
+    "committed": 31,
+    "golive": 28,
+    "incidents": 0
+   }
+  ]
+ },
+ "designs": {
+  "status_quo": {
+   "label": "Today: least-busy manager takes it, a manual check the week before go-live, security answers every question",
+   "weeks_to_golive": [
+    9.3621,
+    8.7155,
+    10.0
+   ],
+   "on_time_share": [
+    0.4786,
+    0.3932,
+    0.5726
+   ],
+   "live_share": [
+    0.9915,
+    0.9744,
+    1.0
+   ],
+   "p1_per_10_golives": [
+    2.3276,
+    1.5385,
+    3.2174
+   ],
+   "exposure_per_10_golives": [
+    1.2931,
+    0.7692,
+    1.913
+   ],
+   "wrong_answers_per_1000": [
+    18.9565,
+    16.4659,
+    21.7233
+   ],
+   "security_turnaround_weeks": [
+    3.7265,
+    3.2308,
+    4.2906
+   ],
+   "drafted_share": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "revenue_in_horizon": [
+    5429717.6923,
+    4322251.5385,
+    6912996.5385
+   ],
+   "overload_share": 0.2217,
+   "lead_hours_per_week": 0.0,
+   "weeks_saved_vs_status_quo": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "revenue_in_horizon_per_seed": 1809906.0
+  },
+  "desk": {
+   "label": "Checks at kickoff, managers matched on skills and language, the questionnaire agent, the lead stepping in",
+   "weeks_to_golive": [
+    5.0513,
+    4.812,
+    5.265
+   ],
+   "on_time_share": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "live_share": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "p1_per_10_golives": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "exposure_per_10_golives": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "wrong_answers_per_1000": [
+    3.6319,
+    2.4605,
+    4.7017
+   ],
+   "security_turnaround_weeks": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "drafted_share": [
+    0.8445,
+    0.826,
+    0.8615
+   ],
+   "revenue_in_horizon": [
+    6643700.7692,
+    5397622.3077,
+    8286513.8462
+   ],
+   "overload_share": 0.23,
+   "lead_hours_per_week": 1.93,
+   "weeks_saved_vs_status_quo": [
+    4.319,
+    3.759,
+    4.922
+   ],
+   "revenue_in_horizon_per_seed": 2214567.0
+  },
+  "checks_late": {
+   "label": "Desk running the same checks only before go-live",
+   "weeks_to_golive": [
+    7.4444,
+    7.1709,
+    7.7094
+   ],
+   "on_time_share": [
+    0.7863,
+    0.7094,
+    0.8547
+   ],
+   "live_share": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "p1_per_10_golives": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "exposure_per_10_golives": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "wrong_answers_per_1000": [
+    3.6319,
+    2.4605,
+    4.7017
+   ],
+   "security_turnaround_weeks": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "drafted_share": [
+    0.8445,
+    0.826,
+    0.8615
+   ],
+   "revenue_in_horizon": [
+    5906471.5385,
+    4769745.3846,
+    7357150.7692
+   ],
+   "overload_share": 0.1867,
+   "lead_hours_per_week": 2.28,
+   "weeks_saved_vs_status_quo": [
+    1.931,
+    1.388,
+    2.526
+   ],
+   "revenue_in_horizon_per_seed": 1968824.0
+  },
+  "no_skill_match": {
+   "label": "Desk assigning the least-busy manager",
+   "weeks_to_golive": [
+    5.2991,
+    5.0513,
+    5.5385
+   ],
+   "on_time_share": [
+    0.9915,
+    0.9744,
+    1.0
+   ],
+   "live_share": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "p1_per_10_golives": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "exposure_per_10_golives": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "wrong_answers_per_1000": [
+    3.6319,
+    2.4605,
+    4.7017
+   ],
+   "security_turnaround_weeks": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "drafted_share": [
+    0.8445,
+    0.826,
+    0.8615
+   ],
+   "revenue_in_horizon": [
+    6578567.3077,
+    5324099.6154,
+    8226320.3846
+   ],
+   "overload_share": 0.2717,
+   "lead_hours_per_week": 2.07,
+   "weeks_saved_vs_status_quo": [
+    4.069,
+    3.517,
+    4.638
+   ],
+   "revenue_in_horizon_per_seed": 2192856.0
+  },
+  "no_agent": {
+   "label": "Desk without the questionnaire agent",
+   "weeks_to_golive": [
+    7.5299,
+    6.9915,
+    8.1111
+   ],
+   "on_time_share": [
+    0.7094,
+    0.6239,
+    0.7863
+   ],
+   "live_share": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "p1_per_10_golives": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "exposure_per_10_golives": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "wrong_answers_per_1000": [
+    18.9565,
+    16.4659,
+    21.7233
+   ],
+   "security_turnaround_weeks": [
+    3.7265,
+    3.2308,
+    4.2906
+   ],
+   "drafted_share": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "revenue_in_horizon": [
+    5992358.8462,
+    4785500.7692,
+    7582900.0
+   ],
+   "overload_share": 0.2033,
+   "lead_hours_per_week": 2.33,
+   "weeks_saved_vs_status_quo": [
+    1.879,
+    1.586,
+    2.155
+   ],
+   "revenue_in_horizon_per_seed": 1997453.0
+  },
+  "no_early_warning": {
+   "label": "Desk without the lead stepping in on at-risk projects",
+   "weeks_to_golive": [
+    5.2564,
+    4.9829,
+    5.5128
+   ],
+   "on_time_share": [
+    0.9573,
+    0.9145,
+    0.9915
+   ],
+   "live_share": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "p1_per_10_golives": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "exposure_per_10_golives": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "wrong_answers_per_1000": [
+    3.6319,
+    2.4605,
+    4.7017
+   ],
+   "security_turnaround_weeks": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "drafted_share": [
+    0.8445,
+    0.826,
+    0.8615
+   ],
+   "revenue_in_horizon": [
+    6599394.2308,
+    5356406.9231,
+    8245678.4615
+   ],
+   "overload_share": 0.2583,
+   "lead_hours_per_week": 0.0,
+   "weeks_saved_vs_status_quo": [
+    4.112,
+    3.595,
+    4.664
+   ],
+   "revenue_in_horizon_per_seed": 2199798.0
+  }
+ }
+}

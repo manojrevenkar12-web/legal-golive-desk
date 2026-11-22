@@ -44,7 +44,7 @@ def headline(doc: dict[str, Any]) -> str:
     d, sq, f = doc["designs"]["desk"], doc["designs"]["status_quo"], doc["facts"]
     s = d["weeks_saved_vs_status_quo"]
     return (
-        f"On {len(doc['seeds'])} {doc['set']} seeds ({f['customers']} simulated customers), the desk took customers live in "
+        f"On {len(doc['seeds'])} {'held-out' if doc['set'] == 'heldout' else 'development'} seeds ({f['customers']} simulated customers), the desk took customers live in "
         f"{d['weeks_to_golive'][0]:.1f} weeks against {sq['weeks_to_golive'][0]:.1f} today: {s[0]:.1f} weeks sooner "
         f"(95% interval {s[1]:.1f}–{s[2]:.1f}), {d['on_time_share'][0]:.0%} on the committed date against "
         f"{sq['on_time_share'][0]:.0%}, and {d['p1_per_10_golives'][0]:.1f} P1 incidents per 10 go-lives against "
