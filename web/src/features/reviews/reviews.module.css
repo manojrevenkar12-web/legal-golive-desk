@@ -1,0 +1,68 @@
+.section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--s7);
+}
+.block {
+  display: grid;
+  gap: var(--s4);
+  align-content: start;
+}
+.block h2 {
+  font-size: var(--t-l);
+}
+.lede {
+  color: var(--ink-2);
+  max-width: 52ch;
+}
+.facts {
+  margin: 0;
+  display: grid;
+  gap: var(--s3);
+}
+.facts div {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--s4);
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: var(--s2);
+}
+.facts dt {
+  color: var(--ink-2);
+  font-size: var(--t-s);
+}
+.facts dd {
+  margin: 0;
+  font: 600 var(--t-xl) var(--serif);
+  font-variant-numeric: tabular-nums;
+}
+.facts dd span {
+  font: 400 var(--t-xs) var(--sans);
+  color: var(--ink-3);
+  margin-left: var(--s2);
+}
+.table {
+  width: 100%;
+  font-size: var(--t-s);
+}
+.table th,
+.table td {
+  padding: var(--s2) var(--s3);
+  border-bottom: 1px solid var(--rule);
+  text-align: right;
+}
+.table th:first-child {
+  text-align: left;
+  font-weight: 500;
+}
+.table thead th {
+  font-weight: 500;
+  font-size: var(--t-xs);
+  color: var(--ink-2);
+}
+@media (max-width: 860px) {
+  .section {
+    grid-template-columns: 1fr;
+  }
+}

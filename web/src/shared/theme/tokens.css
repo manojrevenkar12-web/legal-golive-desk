@@ -1,0 +1,61 @@
+/* One place for every colour, size and space. Series colours validated with the dataviz palette checker
+   (light on #FFFFFF, dark on #17212B): CVD separation ΔE 21, normal-vision ΔE 27, contrast >= 3:1. */
+:root {
+  color-scheme: light;
+  --ground: #edf0f3;
+  --surface: #ffffff;
+  --ink: #16202a;
+  --ink-2: #4f5c69;
+  --ink-3: #6f7b87;
+  --rule: #d5dce3;
+  --rule-strong: #b7c1cb;
+  --grid: #e6eaee;
+  --desk: #1570b8;
+  --today: #c4622d;
+  --late: #b54708;
+  --critical: #b42318;
+  --good: #2e7d32;
+  --focus: #1570b8;
+
+  --serif: "Literata", Georgia, serif;
+  --sans: "Public Sans", system-ui, sans-serif;
+  --t-xs: 0.8125rem;
+  --t-s: 0.9375rem;
+  --t-m: 1.0625rem;
+  --t-l: 1.375rem;
+  --t-xl: 1.875rem;
+  --t-xxl: 2.75rem;
+
+  --s1: 4px;
+  --s2: 8px;
+  --s3: 12px;
+  --s4: 16px;
+  --s5: 24px;
+  --s6: 32px;
+  --s7: 48px;
+  --s8: 72px;
+  --radius-panel: 10px;
+  --radius-mark: 4px;
+  --measure: 68ch;
+  --page: 1120px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --ground: #0f171f;
+    --surface: #17212b;
+    --ink: #e8edf2;
+    --ink-2: #aab6c2;
+    --ink-3: #8a97a4;
+    --rule: #2a3742;
+    --rule-strong: #3c4b58;
+    --grid: #22303b;
+    --desk: #3d8fd6;
+    --today: #d9773f;
+    --late: #e08a3c;
+    --critical: #f06a5f;
+    --good: #5fb865;
+    --focus: #3d8fd6;
+  }
+}

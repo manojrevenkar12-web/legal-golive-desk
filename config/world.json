@@ -1,0 +1,175 @@
+{
+  "_comment": "The simulated EMEA delivery region. Read only by golive/world; never by the product.",
+  "weeks": 40,
+  "arrivalWeeks": 26,
+  "arrivalsPerWeek": 1.6,
+  "startDate": "2026-11-23",
+  "dms": {
+    "imanage_cloud": 0.35,
+    "imanage_onprem": 0.15,
+    "sharepoint": 0.35,
+    "netdocuments": 0.15
+  },
+  "oidcShare": 0.3,
+  "languages": {
+    "en": 0.25,
+    "de": 0.3,
+    "fr": 0.12,
+    "es": 0.1,
+    "it": 0.08,
+    "nl": 0.08,
+    "sv": 0.07
+  },
+  "usersMedian": 250,
+  "usersSigma": 0.9,
+  "acvPerUser": 380,
+  "questions": [
+    30,
+    160
+  ],
+  "germanQuestionShareDach": 0.6,
+  "residency": {
+    "DE": 0.25,
+    "EU": 0.5,
+    "UK": 0.15,
+    "EU_UK": 0.1
+  },
+  "issues": {
+    "certExpiring": 0.15,
+    "weakKey": 0.04,
+    "replyUrl": 0.2,
+    "noGroups": 0.25,
+    "noPkce": 0.3,
+    "wallsUnmapped": 0.2,
+    "anyonePublic": 0.25,
+    "shallowGroups": 0.3,
+    "slowSync": 0.25,
+    "regionWrong": 0.2,
+    "usTranscription": 0.15,
+    "retainingVendor": 0.08,
+    "hiddenConditionalAccess": 0.1,
+    "hiddenFirewall": 0.5
+  },
+  "fix": {
+    "hours": 3,
+    "earlyWeeks": [
+      0.3,
+      1.0
+    ],
+    "lateWeeks": [
+      1.0,
+      3.0
+    ]
+  },
+  "manualCheckFinds": {
+    "sso": 0.6,
+    "dms": 0.3,
+    "residency": 0.6
+  },
+  "incident": {
+    "exposureNoticed": 0.6,
+    "residencyFound": 0.3
+  },
+  "customerRoundTripWeeks": [
+    0.3,
+    1.5
+  ],
+  "languageMismatchFactor": 1.3,
+  "firewallWeeks": [
+    2,
+    5
+  ],
+  "securityReviewWeeks": [
+    1,
+    5
+  ],
+  "securityTeam": {
+    "hoursPerWeek": 20,
+    "minutesPerQuestion": 8,
+    "errorRate": 0.02
+  },
+  "draftReview": {
+    "minutesPerDraft": 1.5,
+    "catchesWrong": 0.7
+  },
+  "baseHours": {
+    "kickoff": 6,
+    "sso": 8,
+    "pilot": 16,
+    "golive": 6
+  },
+  "skillMismatchFactor": 1.5,
+  "tdms": [
+    {
+      "name": "Anna",
+      "skills": [
+        "imanage",
+        "saml"
+      ],
+      "languages": [
+        "en",
+        "de"
+      ],
+      "hours": 22
+    },
+    {
+      "name": "Baptiste",
+      "skills": [
+        "sharepoint",
+        "oidc",
+        "saml"
+      ],
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "hours": 22
+    },
+    {
+      "name": "Carla",
+      "skills": [
+        "netdocuments",
+        "sharepoint"
+      ],
+      "languages": [
+        "en",
+        "es",
+        "it"
+      ],
+      "hours": 22
+    },
+    {
+      "name": "Daan",
+      "skills": [
+        "imanage",
+        "sharepoint",
+        "oidc"
+      ],
+      "languages": [
+        "en",
+        "nl",
+        "de"
+      ],
+      "hours": 22
+    },
+    {
+      "name": "Elin",
+      "skills": [
+        "sharepoint",
+        "saml"
+      ],
+      "languages": [
+        "en",
+        "sv"
+      ],
+      "hours": 22
+    }
+  ],
+  "leadStepInHours": 8,
+  "dmsHours": {
+    "imanage_onprem": 30,
+    "imanage_cloud": 14,
+    "sharepoint": 12,
+    "netdocuments": 12
+  }
+}

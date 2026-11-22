@@ -1,0 +1,11 @@
+{
+  "_comment": "Set on the development seeds before the held-out run. Never loosened after it.",
+  "desk": {
+    "weeksSavedLowMin": 3.0,
+    "onTimeShareMin": 0.9,
+    "p1Per10Max": 0.5,
+    "exposurePer10Max": 0.0,
+    "wrongAnswersPer1000MaxShareOfStatusQuo": 0.3,
+    "falseAlarmsMax": 0
+  }
+}

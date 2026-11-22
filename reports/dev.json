@@ -1,0 +1,984 @@
+{
+ "set": "dev",
+ "seeds": [
+  1,
+  2,
+  3
+ ],
+ "config_sha": "cb3c3f3318ea",
+ "generated_at": "2026-11-22",
+ "weeks": 40,
+ "facts": {
+  "customers": 141,
+  "planted_problems": 263,
+  "found_at_kickoff": 263,
+  "false_alarms": 0,
+  "questions": 13848,
+  "planted_by_kind": {
+   "anyonePublic": {
+    "planted": 19,
+    "found_at_kickoff": 19,
+    "area": "dms"
+   },
+   "certExpiring": {
+    "planted": 14,
+    "found_at_kickoff": 14,
+    "area": "sso"
+   },
+   "noGroups": {
+    "planted": 26,
+    "found_at_kickoff": 26,
+    "area": "sso"
+   },
+   "noPkce": {
+    "planted": 12,
+    "found_at_kickoff": 12,
+    "area": "sso"
+   },
+   "regionWrong": {
+    "planted": 31,
+    "found_at_kickoff": 31,
+    "area": "residency"
+   },
+   "replyUrl": {
+    "planted": 20,
+    "found_at_kickoff": 20,
+    "area": "sso"
+   },
+   "retainingVendor": {
+    "planted": 11,
+    "found_at_kickoff": 11,
+    "area": "residency"
+   },
+   "shallowGroups": {
+    "planted": 48,
+    "found_at_kickoff": 48,
+    "area": "dms"
+   },
+   "slowSync": {
+    "planted": 33,
+    "found_at_kickoff": 33,
+    "area": "dms"
+   },
+   "usTranscription": {
+    "planted": 24,
+    "found_at_kickoff": 24,
+    "area": "residency"
+   },
+   "wallsUnmapped": {
+    "planted": 21,
+    "found_at_kickoff": 21,
+    "area": "dms"
+   },
+   "weakKey": {
+    "planted": 4,
+    "found_at_kickoff": 4,
+    "area": "sso"
+   }
+  }
+ },
+ "timeline_first_seed": {
+  "status_quo": [
+   {
+    "customer": "C1-000",
+    "arrival": 0,
+    "committed": 8,
+    "golive": 8,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-001",
+    "arrival": 0,
+    "committed": 10,
+    "golive": 10,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-002",
+    "arrival": 1,
+    "committed": 9,
+    "golive": 7,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-003",
+    "arrival": 3,
+    "committed": 11,
+    "golive": 9,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-004",
+    "arrival": 3,
+    "committed": 10,
+    "golive": 8,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-005",
+    "arrival": 4,
+    "committed": 11,
+    "golive": 9,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-006",
+    "arrival": 5,
+    "committed": 12,
+    "golive": 9,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-007",
+    "arrival": 6,
+    "committed": 14,
+    "golive": 11,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-008",
+    "arrival": 8,
+    "committed": 15,
+    "golive": 17,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-009",
+    "arrival": 8,
+    "committed": 16,
+    "golive": 13,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-010",
+    "arrival": 8,
+    "committed": 16,
+    "golive": 18,
+    "incidents": 1
+   },
+   {
+    "customer": "C1-011",
+    "arrival": 9,
+    "committed": 17,
+    "golive": 18,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-012",
+    "arrival": 9,
+    "committed": 17,
+    "golive": 19,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-013",
+    "arrival": 10,
+    "committed": 17,
+    "golive": 19,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-014",
+    "arrival": 11,
+    "committed": 20,
+    "golive": 20,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-015",
+    "arrival": 11,
+    "committed": 19,
+    "golive": 19,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-016",
+    "arrival": 12,
+    "committed": 20,
+    "golive": 18,
+    "incidents": 1
+   },
+   {
+    "customer": "C1-017",
+    "arrival": 13,
+    "committed": 21,
+    "golive": 18,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-018",
+    "arrival": 13,
+    "committed": 20,
+    "golive": 23,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-019",
+    "arrival": 13,
+    "committed": 20,
+    "golive": 22,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-020",
+    "arrival": 14,
+    "committed": 22,
+    "golive": 19,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-021",
+    "arrival": 14,
+    "committed": 22,
+    "golive": 21,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-022",
+    "arrival": 14,
+    "committed": 22,
+    "golive": 24,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-023",
+    "arrival": 14,
+    "committed": 22,
+    "golive": 23,
+    "incidents": 1
+   },
+   {
+    "customer": "C1-024",
+    "arrival": 15,
+    "committed": 23,
+    "golive": 23,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-025",
+    "arrival": 16,
+    "committed": 23,
+    "golive": 22,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-026",
+    "arrival": 16,
+    "committed": 24,
+    "golive": 28,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-027",
+    "arrival": 17,
+    "committed": 25,
+    "golive": 25,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-028",
+    "arrival": 17,
+    "committed": 25,
+    "golive": 30,
+    "incidents": 1
+   },
+   {
+    "customer": "C1-029",
+    "arrival": 17,
+    "committed": 24,
+    "golive": 28,
+    "incidents": 1
+   },
+   {
+    "customer": "C1-030",
+    "arrival": 18,
+    "committed": 26,
+    "golive": 27,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-031",
+    "arrival": 18,
+    "committed": 26,
+    "golive": 30,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-032",
+    "arrival": 18,
+    "committed": 26,
+    "golive": 31,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-033",
+    "arrival": 19,
+    "committed": 27,
+    "golive": 31,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-034",
+    "arrival": 20,
+    "committed": 28,
+    "golive": 35,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-035",
+    "arrival": 20,
+    "committed": 30,
+    "golive": 31,
+    "incidents": 1
+   },
+   {
+    "customer": "C1-036",
+    "arrival": 20,
+    "committed": 30,
+    "golive": 38,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-037",
+    "arrival": 21,
+    "committed": 29,
+    "golive": 37,
+    "incidents": 1
+   },
+   {
+    "customer": "C1-038",
+    "arrival": 22,
+    "committed": 30,
+    "golive": 37,
+    "incidents": 1
+   },
+   {
+    "customer": "C1-039",
+    "arrival": 22,
+    "committed": 30,
+    "golive": 37,
+    "incidents": 0
+   }
+  ],
+  "desk": [
+   {
+    "customer": "C1-000",
+    "arrival": 0,
+    "committed": 8,
+    "golive": 4,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-001",
+    "arrival": 0,
+    "committed": 10,
+    "golive": 5,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-002",
+    "arrival": 1,
+    "committed": 9,
+    "golive": 6,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-003",
+    "arrival": 3,
+    "committed": 11,
+    "golive": 7,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-004",
+    "arrival": 3,
+    "committed": 10,
+    "golive": 7,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-005",
+    "arrival": 4,
+    "committed": 11,
+    "golive": 7,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-006",
+    "arrival": 5,
+    "committed": 12,
+    "golive": 9,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-007",
+    "arrival": 6,
+    "committed": 14,
+    "golive": 11,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-008",
+    "arrival": 8,
+    "committed": 15,
+    "golive": 14,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-009",
+    "arrival": 8,
+    "committed": 16,
+    "golive": 12,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-010",
+    "arrival": 8,
+    "committed": 16,
+    "golive": 13,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-011",
+    "arrival": 9,
+    "committed": 17,
+    "golive": 14,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-012",
+    "arrival": 9,
+    "committed": 17,
+    "golive": 13,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-013",
+    "arrival": 10,
+    "committed": 17,
+    "golive": 15,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-014",
+    "arrival": 11,
+    "committed": 20,
+    "golive": 16,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-015",
+    "arrival": 11,
+    "committed": 19,
+    "golive": 18,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-016",
+    "arrival": 12,
+    "committed": 20,
+    "golive": 15,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-017",
+    "arrival": 13,
+    "committed": 21,
+    "golive": 17,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-018",
+    "arrival": 13,
+    "committed": 20,
+    "golive": 18,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-019",
+    "arrival": 13,
+    "committed": 20,
+    "golive": 17,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-020",
+    "arrival": 14,
+    "committed": 22,
+    "golive": 18,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-021",
+    "arrival": 14,
+    "committed": 22,
+    "golive": 19,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-022",
+    "arrival": 14,
+    "committed": 22,
+    "golive": 18,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-023",
+    "arrival": 14,
+    "committed": 22,
+    "golive": 19,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-024",
+    "arrival": 15,
+    "committed": 23,
+    "golive": 19,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-025",
+    "arrival": 16,
+    "committed": 23,
+    "golive": 19,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-026",
+    "arrival": 16,
+    "committed": 24,
+    "golive": 22,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-027",
+    "arrival": 17,
+    "committed": 25,
+    "golive": 22,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-028",
+    "arrival": 17,
+    "committed": 25,
+    "golive": 21,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-029",
+    "arrival": 17,
+    "committed": 24,
+    "golive": 21,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-030",
+    "arrival": 18,
+    "committed": 26,
+    "golive": 22,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-031",
+    "arrival": 18,
+    "committed": 26,
+    "golive": 21,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-032",
+    "arrival": 18,
+    "committed": 26,
+    "golive": 24,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-033",
+    "arrival": 19,
+    "committed": 27,
+    "golive": 25,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-034",
+    "arrival": 20,
+    "committed": 28,
+    "golive": 26,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-035",
+    "arrival": 20,
+    "committed": 30,
+    "golive": 28,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-036",
+    "arrival": 20,
+    "committed": 30,
+    "golive": 26,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-037",
+    "arrival": 21,
+    "committed": 29,
+    "golive": 26,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-038",
+    "arrival": 22,
+    "committed": 30,
+    "golive": 27,
+    "incidents": 0
+   },
+   {
+    "customer": "C1-039",
+    "arrival": 22,
+    "committed": 30,
+    "golive": 26,
+    "incidents": 0
+   }
+  ]
+ },
+ "designs": {
+  "status_quo": {
+   "label": "Today: least-busy manager takes it, a manual check the week before go-live, security answers every question",
+   "weeks_to_golive": [
+    9.741,
+    9.2662,
+    10.1871
+   ],
+   "on_time_share": [
+    0.3475,
+    0.2695,
+    0.4184
+   ],
+   "live_share": [
+    0.9858,
+    0.9645,
+    1.0
+   ],
+   "p1_per_10_golives": [
+    2.3022,
+    1.5108,
+    3.0435
+   ],
+   "exposure_per_10_golives": [
+    1.1511,
+    0.6569,
+    1.6429
+   ],
+   "wrong_answers_per_1000": [
+    21.0861,
+    18.8665,
+    23.3809
+   ],
+   "security_turnaround_weeks": [
+    4.383,
+    4.0,
+    4.7447
+   ],
+   "drafted_share": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "revenue_in_horizon": [
+    7215586.1538,
+    5784827.6923,
+    8977872.6923
+   ],
+   "overload_share": 0.3267,
+   "lead_hours_per_week": 0.0,
+   "weeks_saved_vs_status_quo": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "revenue_in_horizon_per_seed": 2405195.0
+  },
+  "desk": {
+   "label": "Checks at kickoff, managers matched on skills and language, the questionnaire agent, the lead stepping in",
+   "weeks_to_golive": [
+    5.0142,
+    4.8227,
+    5.2057
+   ],
+   "on_time_share": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "live_share": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "p1_per_10_golives": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "exposure_per_10_golives": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "wrong_answers_per_1000": [
+    3.0329,
+    2.1407,
+    4.032
+   ],
+   "security_turnaround_weeks": [
+    1.0071,
+    1.0,
+    1.0213
+   ],
+   "drafted_share": [
+    0.846,
+    0.8297,
+    0.8625
+   ],
+   "revenue_in_horizon": [
+    9254593.0769,
+    7609770.3846,
+    11261884.6154
+   ],
+   "overload_share": 0.3533,
+   "lead_hours_per_week": 3.07,
+   "weeks_saved_vs_status_quo": [
+    4.748,
+    4.295,
+    5.223
+   ],
+   "revenue_in_horizon_per_seed": 3084864.0
+  },
+  "checks_late": {
+   "label": "Desk running the same checks only before go-live",
+   "weeks_to_golive": [
+    7.4397,
+    7.227,
+    7.6596
+   ],
+   "on_time_share": [
+    0.8511,
+    0.7872,
+    0.9078
+   ],
+   "live_share": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "p1_per_10_golives": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "exposure_per_10_golives": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "wrong_answers_per_1000": [
+    3.0329,
+    2.1407,
+    4.032
+   ],
+   "security_turnaround_weeks": [
+    1.0071,
+    1.0,
+    1.0213
+   ],
+   "drafted_share": [
+    0.846,
+    0.8297,
+    0.8625
+   ],
+   "revenue_in_horizon": [
+    8246160.7692,
+    6714190.7692,
+    10085916.1538
+   ],
+   "overload_share": 0.295,
+   "lead_hours_per_week": 3.52,
+   "weeks_saved_vs_status_quo": [
+    2.317,
+    1.849,
+    2.813
+   ],
+   "revenue_in_horizon_per_seed": 2748720.0
+  },
+  "no_skill_match": {
+   "label": "Desk assigning the least-busy manager",
+   "weeks_to_golive": [
+    5.2553,
+    5.0638,
+    5.4539
+   ],
+   "on_time_share": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "live_share": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "p1_per_10_golives": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "exposure_per_10_golives": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "wrong_answers_per_1000": [
+    3.0329,
+    2.1407,
+    4.032
+   ],
+   "security_turnaround_weeks": [
+    1.0071,
+    1.0,
+    1.0213
+   ],
+   "drafted_share": [
+    0.846,
+    0.8297,
+    0.8625
+   ],
+   "revenue_in_horizon": [
+    9151342.6923,
+    7514251.5385,
+    11176501.5385
+   ],
+   "overload_share": 0.385,
+   "lead_hours_per_week": 3.0,
+   "weeks_saved_vs_status_quo": [
+    4.518,
+    4.086,
+    4.928
+   ],
+   "revenue_in_horizon_per_seed": 3050448.0
+  },
+  "no_agent": {
+   "label": "Desk without the questionnaire agent",
+   "weeks_to_golive": [
+    7.9858,
+    7.5603,
+    8.383
+   ],
+   "on_time_share": [
+    0.5816,
+    0.4965,
+    0.6596
+   ],
+   "live_share": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "p1_per_10_golives": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "exposure_per_10_golives": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "wrong_answers_per_1000": [
+    21.0861,
+    18.8665,
+    23.3809
+   ],
+   "security_turnaround_weeks": [
+    4.383,
+    4.0,
+    4.7447
+   ],
+   "drafted_share": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "revenue_in_horizon": [
+    8065215.0,
+    6474951.5385,
+    10025481.5385
+   ],
+   "overload_share": 0.3083,
+   "lead_hours_per_week": 3.2,
+   "weeks_saved_vs_status_quo": [
+    1.835,
+    1.583,
+    2.108
+   ],
+   "revenue_in_horizon_per_seed": 2688405.0
+  },
+  "no_early_warning": {
+   "label": "Desk without the lead stepping in on at-risk projects",
+   "weeks_to_golive": [
+    5.383,
+    5.156,
+    5.6099
+   ],
+   "on_time_share": [
+    0.9929,
+    0.9787,
+    1.0
+   ],
+   "live_share": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "p1_per_10_golives": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "exposure_per_10_golives": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "wrong_answers_per_1000": [
+    3.0329,
+    2.1407,
+    4.032
+   ],
+   "security_turnaround_weeks": [
+    1.0071,
+    1.0,
+    1.0213
+   ],
+   "drafted_share": [
+    0.846,
+    0.8297,
+    0.8625
+   ],
+   "revenue_in_horizon": [
+    9073552.3077,
+    7419638.8462,
+    11137719.6154
+   ],
+   "overload_share": 0.3933,
+   "lead_hours_per_week": 0.0,
+   "weeks_saved_vs_status_quo": [
+    4.367,
+    3.957,
+    4.799
+   ],
+   "revenue_in_horizon_per_seed": 3024517.0
+  }
+ }
+}

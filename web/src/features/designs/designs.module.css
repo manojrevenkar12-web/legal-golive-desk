@@ -1,0 +1,108 @@
+.section {
+  display: grid;
+  grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+  gap: var(--s5) var(--s7);
+  align-items: start;
+}
+.text {
+  display: grid;
+  gap: var(--s3);
+  color: var(--ink-2);
+  max-width: 44ch;
+}
+.text h2 {
+  font-size: var(--t-l);
+  color: var(--ink);
+}
+.chart {
+  margin: 0;
+}
+.svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.axis {
+  font: 400 10px var(--sans);
+  fill: var(--ink-3);
+}
+.name,
+.nameStrong {
+  font: 400 12.5px var(--sans);
+  fill: var(--ink-2);
+}
+.nameStrong {
+  font-weight: 600;
+  fill: var(--ink);
+}
+.value {
+  font: 500 12px var(--sans);
+  fill: var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+.caption {
+  font-size: var(--t-xs);
+  color: var(--ink-2);
+  margin-top: var(--s2);
+  min-height: 2.6em;
+}
+.tableWrap {
+  grid-column: 1 / -1;
+  overflow-x: auto;
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-panel);
+}
+.table {
+  width: 100%;
+  font-size: var(--t-s);
+}
+.table th,
+.table td {
+  text-align: right;
+  padding: var(--s3) var(--s4);
+  border-bottom: 1px solid var(--rule);
+  vertical-align: top;
+  white-space: nowrap;
+}
+.table thead th {
+  font-weight: 500;
+  font-size: var(--t-xs);
+  color: var(--ink-2);
+  white-space: normal;
+  min-width: 96px;
+}
+.table th:first-child {
+  text-align: left;
+  min-width: 260px;
+  white-space: normal;
+}
+.table tbody tr:last-child > * {
+  border-bottom: 0;
+}
+.rowName {
+  display: block;
+  font-weight: 600;
+}
+.rowLabel {
+  display: block;
+  font-weight: 400;
+  font-size: var(--t-xs);
+  color: var(--ink-3);
+  max-width: 34ch;
+}
+.mine {
+  background: color-mix(in srgb, var(--desk) 8%, transparent);
+}
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+@media (max-width: 860px) {
+  .section {
+    grid-template-columns: 1fr;
+  }
+}

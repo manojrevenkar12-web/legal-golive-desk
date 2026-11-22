@@ -1,0 +1,17 @@
+{
+  "_comment": "How the desk decides. Read by the product and the evaluation; never by golive/world.",
+  "questionnaire": {
+    "minScore": 4.0,
+    "minMargin": 1.25,
+    "minCoverage": 0.4
+  },
+  "allocation": {
+    "maxLoadWeeks": 2.5
+  },
+  "dms": {
+    "maxSyncMinutes": 60
+  },
+  "sso": {
+    "certMarginDays": 60
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "status_quo": {"label": "Today: least-busy manager takes it, a manual check the week before go-live, security answers every question", "match": false, "checks": "manual_late", "agent": false, "early_warning": false},
+  "desk": {"label": "Checks at kickoff, managers matched on skills and language, the questionnaire agent, the lead stepping in", "match": true, "checks": "kickoff", "agent": true, "early_warning": true},
+  "checks_late": {"label": "Desk running the same checks only before go-live", "match": true, "checks": "late", "agent": true, "early_warning": true},
+  "no_skill_match": {"label": "Desk assigning the least-busy manager", "match": false, "checks": "kickoff", "agent": true, "early_warning": true},
+  "no_agent": {"label": "Desk without the questionnaire agent", "match": true, "checks": "kickoff", "agent": false, "early_warning": true},
+  "no_early_warning": {"label": "Desk without the lead stepping in on at-risk projects", "match": true, "checks": "kickoff", "agent": true, "early_warning": false}
+}

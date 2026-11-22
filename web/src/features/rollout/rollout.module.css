@@ -1,0 +1,112 @@
+.board {
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-panel);
+  padding: var(--s6);
+}
+.head {
+  display: grid;
+  gap: var(--s2);
+  margin-bottom: var(--s5);
+}
+.head h2 {
+  font-size: var(--t-l);
+}
+.sub {
+  color: var(--ink-2);
+  font-size: var(--t-s);
+  max-width: var(--measure);
+}
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s5);
+  list-style: none;
+  padding: 0;
+  margin: var(--s2) 0 0;
+  font-size: var(--t-xs);
+  color: var(--ink-2);
+}
+.legend li {
+  display: flex;
+  align-items: center;
+  gap: var(--s2);
+}
+.keyHatch {
+  width: 22px;
+  height: 10px;
+  border-radius: 3px;
+  border: 1px solid var(--late);
+  background: repeating-linear-gradient(45deg, var(--late) 0 2px, var(--surface) 2px 5px);
+}
+.keyTick {
+  width: 2px;
+  height: 14px;
+  background: var(--ink);
+}
+.keyDot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--critical);
+}
+.lanes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--s6);
+}
+.lane {
+  margin: 0;
+}
+.laneHead {
+  display: flex;
+  align-items: baseline;
+  gap: var(--s2);
+  margin-bottom: var(--s3);
+}
+.swatch {
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  align-self: center;
+}
+.laneTitle {
+  font: 600 var(--t-m) var(--serif);
+}
+.laneFacts {
+  margin-left: auto;
+  font-size: var(--t-xs);
+  color: var(--ink-2);
+  font-variant-numeric: tabular-nums;
+}
+.svg {
+  width: 100%;
+  height: auto;
+  display: block;
+  overflow: visible;
+}
+.axis {
+  font: 400 10px var(--sans);
+  fill: var(--ink-3);
+}
+.row {
+  cursor: default;
+}
+.row:hover rect:nth-child(2) {
+  filter: brightness(1.12);
+}
+.tip {
+  margin-top: var(--s4);
+  min-height: 1.5em;
+  font-size: var(--t-s);
+  color: var(--ink-2);
+  font-variant-numeric: tabular-nums;
+}
+@media (max-width: 760px) {
+  .board {
+    padding: var(--s4);
+  }
+  .lanes {
+    grid-template-columns: 1fr;
+  }
+}
